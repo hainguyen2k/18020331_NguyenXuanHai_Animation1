@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#F8F0F0"
+    app:layoutDescription="@xml/activity_srceen02_scene"
     tools:context=".Srceen02Activity">
 
  <View
@@ -21,14 +22,14 @@
      app:layout_constraintVertical_bias="0.0" />
 
  <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/group_9" />
+     android:id="@+id/imageView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="16dp"
+     android:layout_marginTop="16dp"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:srcCompat="@drawable/group_9" />
 
  <ImageView
      android:id="@+id/imageView2"
@@ -51,15 +52,15 @@
      app:srcCompat="@drawable/eclipse" />
 
  <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
-        app:layout_constraintEnd_toEndOf="@+id/imgAvatar2"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/imgAvatar2"
-        app:layout_constraintTop_toBottomOf="@+id/imgAvatar2"
-        app:srcCompat="@drawable/group_8" />
+     android:id="@+id/imageView4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="212dp"
+     app:layout_constraintEnd_toEndOf="@+id/imgAvatar2"
+     app:layout_constraintHorizontal_bias="0.492"
+     app:layout_constraintStart_toStartOf="@+id/imgAvatar2"
+     app:layout_constraintTop_toBottomOf="@+id/imgAvatar2"
+     app:srcCompat="@drawable/group_8" />
 
  <ImageView
      android:id="@+id/imageView5"
@@ -118,4 +119,20 @@
      app:layout_constraintHorizontal_bias="0.491"
      app:layout_constraintStart_toStartOf="@+id/imageView5" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+ <ImageView
+     android:id="@+id/imageView7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     app:srcCompat="@drawable/love_story_taylor_swift__1_"
+     tools:layout_editor_absoluteX="123dp"
+     tools:layout_editor_absoluteY="104dp" />
+
+ <ImageView
+     android:id="@+id/imageView8"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     app:srcCompat="@drawable/lyric"
+     tools:layout_editor_absoluteX="98dp"
+     tools:layout_editor_absoluteY="148dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
